@@ -1,0 +1,14 @@
+<PermissionSets>
+  <PermissionSet RoleID="NAME_BTR" RoleName="Description - Braintree">
+    <Permission>
+      <ObjectType>3</ObjectType> <!-- 0 Table Data,1 Table,2,3 Report,4 ,5 Codeunit,6 XMLport,7 MenuSuite,8 Page,9 Query,10 System -->
+      <ObjectID>123</ObjectID>
+      <ReadPermission>0</ReadPermission>	<!--  0 ,1 Yes,2 Indirect -->
+      <InsertPermission>0</InsertPermission>
+      <ModifyPermission>0</ModifyPermission>
+      <DeletePermission>0</DeletePermission>
+      <ExecutePermission>1</ExecutePermission>
+      <SecurityFilter />
+    </Permission>
+  </PermissionSet>
+</PermissionSets>
